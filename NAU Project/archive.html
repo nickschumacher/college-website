@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personalized Learning</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="resources/grid.css" rel="stylesheet" type="text/css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css" rel="stylesheet" type="text/css">
+        <link href="about.html" rel="stylesheet" type="text/css">
+        <link href="archive.html" rel="stylesheet" type="text/css">
+        <link href="disclaimer.html" rel="stylesheet" type="text/css">
+        <link href="contact.html" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+             <div class="nav-bar">
+                <div class="nav-logo">
+                    <img src="img/nau-logo.png" class="nau-img">
+                </div>
+                <div class="nav-link1">
+                <a href="contact.html">Contact</a>
+                    </div>
+                <div class="nav-link2">
+                <a href="disclaimer.html">Disclaimer</a>
+                </div>
+                <div class="nav-link3">
+                <a href="archive.html">Archive</a>
+                </div>
+                <div class="nav-link4">
+                <a href="about.html">About</a>
+                    </div>
+                <div class="nav-link5">
+                <a href="index.html">Home</a>
+                    </div>
+            </div>
+        <h1 class="archive-header">Archive</h1>
+        <div id="archive-container">
+            <div class="collapsible">
+                <h2 class="archive-headings">January 2018</h2>
+                <div class="archive-links">
+                    <p><a href="article1.html">Sample Article 1</a></p>
+                </div>
+                <h2 class="archive-headings">February 2018</h2>
+                <div class="archive-links">
+                    <p><a href="article2.html">Sample Article 2</a></p>
+                    <p><a href="article3.html">Sample Article 3</a></p>
+                </div>
+                <h2 class="archive-headings">March 2018</h2>
+                <div class="archive-links">
+                    <p><a href="article4.html">Sample Article 4</a></p>
+                </div>
+                <h2 class="archive-headings">April 2018</h2>
+                <div class="archive-links">
+                    <p><a href="article5.html">Sample Article 5</a></p>
+                    <p><a href="article6.html">Sample Article 6</a></p>
+                </div>
+                
+            </div>
+        </div>
+    <footer class="footer-about">
+            <p class="footerp">
+                Nicholas Schumacher &copy; 2018
+            </p>
+        </footer>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous" type="text/javascript">
+        </script>
+        <script>
+            //This hides the links
+            $(document).ready(function(){
+                $(".collapsible .archive-links").hide();
+                //Makes h2 display links when clicked
+                $(".collapsible .archive-headings").click(function(){
+                    $(this).next().toggle();
+                    
+                });
+            });
+        </script>
+        
+    </body>
+</html>

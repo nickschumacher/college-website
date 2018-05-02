@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    font-family: 'lato'. 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*-------------------------------------------------*/
+/*Header*/
+/*-------------------------------------------------*/
+
+header {
+    background-image:url(img/header.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.header-box {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    margin: 15% auto;
+    width: 100%;
+    color:#024c8d;
+    font-size: 170%
+}
+.nav-bar {
+    width: 100%;
+    overflow; 
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.7);
+    padding: 25px;
+    display: inline-block;
+    max-height: 75px;
+}
+.nav-logo {
+    float: left;
+}
+.nau-img {
+    height: 60px;
+    margin: -25px;
+    padding-left: 20px;
+}
+.nav-link1 {
+    width: 17%;
+    float: right;
+    font-size: 25px;
+}
+.nav-link2 {
+    width: 17%;
+    float: right;
+    font-size: 25px;
+}
+.nav-link3 {
+    width: 17%;
+    float: right;
+    font-size: 25px;
+}
+.nav-link4 {
+    width: 17%;
+    float: right;
+    font-size: 25px;
+}
+.nav-link5 {
+    width: 17%;
+    float: right;
+    font-size: 25px;
+}
+
+a {
+    color: #024c8d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+    border-bottom: solid 1.5px orange;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+/*-------------------------------------------------*/
+/*What is PL Section*/
+/*-------------------------------------------------*/
+.what-is-pl {
+    margin-top: 50px;
+}
+h2 {
+    text-align: center;
+    color: #024c8d;
+    padding: 10px;
+}
+.what-is-content {
+    display: inline-block;
+    height: auto;
+    width: 75%;
+    padding-left: 30px;
+}
+.what-is {
+    text-align: left;
+    display: inline-block;
+    
+}
+
+.online-learning {
+    float: right;
+    height: 250px;
+    width: 20%;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+/*-------------------------------------------------*/
+/*Why PL*/
+/*-------------------------------------------------*/
+
+.why-pl {
+    margin-top: 50px;
+    background-color: #ebebeb;
+    display: block;
+}
+
+.why-pl-heading {
+    text-align: center;
+}
+
+.why-info {
+    text-align: center;
+}
+.reason-box {
+    width: 25%;
+    background-color: #ebebeb;
+    border-color: #ebebeb;
+    padding: 1%;
+}
+
+h3 {
+    color: orange;
+    text-align: center
+}
+
+.icon {
+    text-align: center;
+    font-size: 60px;
+    display: block;
+    padding: 20px 0;
+}
+/*-------------------------------------------------*/
+/*PL Programs*/
+/*-------------------------------------------------*/
+
+.pl-degrees {
+    background-color: rgba(1, 65, 121, 0.53);
+}
+
+.degree-box {
+    width: 33.33%;
+}
+
+.degree-image {
+    width: 100%;
+    object-fit: contain;
+    padding: 15px;
+}
+
+.degree-content {
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-note {
+    width: 100%;
+    text-align: center;
+    clear: both;
+    background-color:grey;
+}
+
+/*-------------------------------------------------*/
+/*More Information*/
+/*-------------------------------------------------*/
+
+.info-words {
+    display: inline-block;
+    margin: 10px;
+    width: 60%;
+    padding: 30px;
+}
+.map-area {
+    margin-right: 30px;
+    float: right;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.info-buttons {
+    text-align: center;
+}
+
+.button1 {
+    float: left;
+    display: inline-block;
+    width: 25%;
+}
+
+.button2 {
+    float: left;
+    display: inline-block;
+    width: 25%;
+}
+
+/*-------------------------------------------------*/
+/*Footer*/
+/*-------------------------------------------------*/
+.footer-main {
+    display: block;
+    background-color: grey;
+    clear: both;
+    text-align:center;
+    padding: 40px;
+    bottom: 0;
+    
+}
+
+/*-------------------------------------------------*/
+/*About page*/
+/*-------------------------------------------------*/
+h1 {
+    color:#024c8d;
+    text-align: center
+}
+.about-title {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-content {
+    padding: 30px
+}
+.about-description {
+    width: 75%;
+}
+
+.author-img-box {
+    float: right;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.author-img {
+    width: 300px;
+    height: 275px;
+    margin-right: 130px;
+    padding: 20px;
+}
+.footer-about {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    background-color: grey;
+    clear: both;
+    text-align:center;
+    padding: 40px;
+}
+/*-------------------------------------------------*/
+/*Archive page*/
+/*-------------------------------------------------*/
+.footer-archive {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    background-color: grey;
+    clear: both;
+    text-align:center;
+    padding: 40px;
+}
+.archive-header {
+    text-decoration: underline;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+#archive-container {
+    text-align: center;
+}
+.articlep {
+    padding-left: 20px;
+    padding-right 20px;
+}
+/*-------------------------------------------------*/
+/*Disclaimer page*/
+/*-------------------------------------------------*/
+.footer-disclaimer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    background-color: grey;
+    clear: both;
+    text-align:center;
+    padding: 40px;
+}
+
+.disclaimer {
+    padding: 20px;
+}
+.disclaimer-img {
+    margin-left: 44%;
+}
+/*-------------------------------------------------*/
+/*Contact page*/
+/*-------------------------------------------------*/
+.footer-contact {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    background-color: grey;
+    clear: both;
+    text-align:center;
+    padding: 40px;
+}
+
+.form {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 60%;
+}
+
+input,
+textarea {
+    width:100%;
+    padding: 5px;
+    border-radius: 3px;
+    border-color: orange;
+    margin-bottom: 40px;
+}
+
+label {
+    color: #024c8d;
+}
+
+.contactp {
+    text-align: center;
+}
