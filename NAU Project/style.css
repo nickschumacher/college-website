@@ -268,7 +268,7 @@ h1 {
     padding: 20px;
 }
 .footer-about {
-    position: absolute;
+    position: static;
     bottom: 0;
     width: 100%;
     display: block;
@@ -281,7 +281,7 @@ h1 {
 /*Archive page*/
 /*-------------------------------------------------*/
 .footer-archive {
-    position: absolute;
+    position: static;
     bottom: 0;
     width: 100%;
     display: block;
@@ -306,7 +306,7 @@ h1 {
 /*Disclaimer page*/
 /*-------------------------------------------------*/
 .footer-disclaimer {
-    position: absolute;
+    position: static;
     bottom: 0;
     width: 100%;
     display: block;
@@ -326,7 +326,7 @@ h1 {
 /*Contact page*/
 /*-------------------------------------------------*/
 .footer-contact {
-    position: absolute;
+    position: static;
     bottom: 0;
     width: 100%;
     display: block;
